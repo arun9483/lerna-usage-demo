@@ -1,0 +1,29 @@
+{
+  "name": "maths-util-is-even",
+  "version": "0.0.0",
+  "description": "maths util isEven",
+  "keywords": [
+    "maths",
+    "isEven"
+  ],
+  "author": "Arun Kumar Tripathi <arun9483@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/maths-util-is-even.js",
+  "types": "dist/maths-util-is-even.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.4.1",
+    "typescript": "^4.9.5"
+  }
+}
